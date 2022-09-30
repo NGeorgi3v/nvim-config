@@ -39,8 +39,8 @@ packer.startup(function(use)
   use "kyazdani42/nvim-tree.lua" -- NVIM tree file explorer
   use "terrortylor/nvim-comment" -- gc gcc comment plugin
   use "mg979/vim-visual-multi" -- Ctrl+N Multicursor
-  use "tpope/vim-liquid" -- Liquid syntax highlight 
-  use 'lewis6991/gitsigns.nvim'
+  use 'lewis6991/gitsigns.nvim' -- Gitsigns on the left
+  use 'nvim-treesitter/playground' -- Treesitter playground for syntax highlights
 end)
 
 require("mason").setup({
