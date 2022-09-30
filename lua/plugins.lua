@@ -40,7 +40,6 @@ packer.startup(function(use)
   use "terrortylor/nvim-comment" -- gc gcc comment plugin
   use "mg979/vim-visual-multi" -- Ctrl+N Multicursor
   use "tpope/vim-liquid" -- Liquid syntax highlight 
-
   use 'lewis6991/gitsigns.nvim'
 end)
 

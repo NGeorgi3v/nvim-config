@@ -72,6 +72,15 @@ nvim_lsp.sumneko_lua.setup {
   },
 }
 
+-- nvim_lsp.theme_check.setup{
+--   cmd = { "theme-check", "--stdio" },
+--   filetypes = { "liquid" },
+--   root_dir = function(name)
+--     return vim.loop.cwd()
+--   end,
+--   settings = {}
+-- }
+
 nvim_lsp.emmet_ls.setup({
     -- on_attach = on_attach,
     capabilities = capabilities,
