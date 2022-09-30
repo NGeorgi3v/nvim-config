@@ -74,13 +74,12 @@ cmp.setup({
         if kind == "Text" then
           return true
         end
-      end,
-      group_index = 2,
+      end
     },
-    { name = "luasnip", group_index = 2 },
-    { name = "buffer", },
-    { name = "nvim_lua", group_index = 2 },
-    { name = "path", group_index = 2 },
+    { name = "luasnip"},
+    { name = "buffer"},
+    { name = "nvim_lua"},
+    { name = "path"},
   },
   confirm_opts = {
     behavior = cmp.ConfirmBehavior.Replace,
